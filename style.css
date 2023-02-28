@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    border: solid 3px blueviolet;
+}
+
+body{
+    background-color: rgba(106, 9, 197, 0.432);
+    padding: 20px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+
+
+}
+.contenedor{
+    height: 70%;
+    width: 35%;
+    border-radius: 4% ;
+    border: solid 3px blueviolet;
+    background-color: darkmagenta;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+
+}
+.contenedor__resultado{
+    font-size: 30px;
+    height:100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px rgb(244, 240, 247);
+    background-color: aliceblue;
+    color: blueviolet;
+}
+.contenedor__suma{
+    height: 15%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.cuadro1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+    width: 90px;
+    border-radius: 20px;
+    border: solid 1px blueviolet;
+    font-size: 30px;
+    color: blueviolet;
+}
+.simbo{
+    height: 60px;
+    width: 70px;
+   color: aliceblue;
+   font-size: 40px;
+   text-align: center;
+
+}
+.cuadro2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 90px;
+    border-radius: 20px;
+    border: solid 1px blueviolet;
+    font-size: 30px;
+    text-align: center;
+    color: blueviolet;
+}
+.contenedor__numeros{
+    height: 80%;
+    width: 95%;
+    /* background-color: aqua; */
+    padding: 10px;
+    margin-top: 40px;
+}
+button{
+    height: 80px;
+    width: 90px;
+    background-color: violet;
+    border-radius: 20%;
+    border: solid 1px blueviolet;
+    color: honeydew;
+    margin-top: 10px;
+    font-size: 30px;
+
+}
+button:hover{
+    background-color: rgba(128, 9, 128, 0.774);
+}
+.primero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.segundo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.tercero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.cuarto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+

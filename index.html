@@ -4,9 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./main.js"></script>
+    <title>CALCULADORA</title>
 </head>
 <body>
-    
+
+    <!-- cuadro contenedor de la calculadora -->
+    <div class="contenedor">
+        <!-- cuadro de resultado -->
+        <div class="contenedor__resultado" id="display"></div>
+        <!-- cuadros de las sumas -->
+        <div class="contenedor__suma">
+            <input type="text" class="cuadro1" id="num1">
+            <label for="" id="simbolo" class="simbo"></label>
+            <input type="text" class="cuadro2" id="num2">
+        </div>
+
+        <div class="contenedor__numeros">
+
+            <div class="primero">
+                <button id="btn_7">7</button>
+                <button id="btn_8">8</button>
+                <button id="btn_9">9</button>
+                <button id="btn_+" onclick="operador('+')">+</button>
+            </div>
+
+            <div class="segundo">
+                <button id="btn_4">4</button>
+                <button id="btn_5">5</button>
+                <button id="btn_6">6</button>
+                <button id="btn_-" onclick="operador('-')">-</button>
+            </div>
+
+            <div class="tercero">
+                <button id="btn_1">1</button>
+                <button id="btn_2">2</button>
+                <button id="btn_3">3</button>
+                <button id="btn_*" onclick="operador('*')">*</button>
+            </div>
+
+            <div class="cuarto">
+                <button id="btn_0">0</button>
+                <button id="btn_=" onclick="mostrar()">=</button>
+                <button id="btn_AC" onclick="operador('AC')">AC</button>
+                <button id="btn_/" onclick="operador('/')">/</button>
+            </div>
+
+        </div>
+
+    </div>
 </body>
 </html>
